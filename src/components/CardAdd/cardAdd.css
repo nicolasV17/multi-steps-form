@@ -1,0 +1,85 @@
+.titulo {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.subtitulo {
+    font-size: 18px;
+}
+
+.valor {
+    color: #483EFF;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.tarjeta:hover {
+    border: 1px solid #483EFF;
+}
+
+.tarjeta.active {
+    border: 1px solid #483EFF;
+}
+
+
+.contenedor-titulo {
+    flex-basis: 65%;
+}
+
+.checkbox {
+    aspect-ratio: 1;
+    width: 20px;
+
+}
+
+input[TYPE="CHECKBOX"]:checked {
+    accent-color: #483EFF;
+}
+
+
+@media (max-width:680px) {
+    .titulo {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .subtitulo {
+        font-size: 12px;
+    }
+
+    .checkbox {
+        aspect-ratio: 1;
+        width: 15px;
+        margin-right: 10px;
+    }
+
+    .valor {
+        color: #483EFF;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .tarjeta {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px 5px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+        .contenedor-titulo {
+            flex-basis: 75%;
+        }
+}

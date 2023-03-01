@@ -1,0 +1,47 @@
+.circulo-steps {
+    aspect-ratio: 1;
+    height: 53px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.circulo-steps.active {
+    color:#022959;
+    background-color: #BEE2FD;
+}
+
+.contenedor-circulo-steps {
+    flex-basis: 25%;
+}
+
+.steps_titulo {
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+
+.steps_texto {
+    margin-bottom: 0;
+    font-size: 19px;
+}
+
+@media (max-width:680px)  {
+    .circulo-steps {
+        aspect-ratio: 1;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            color: white;
+            font-weight: 700;
+            font-size: 19px;
+        }
+}

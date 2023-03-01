@@ -1,0 +1,115 @@
+#contenedor-cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+}
+
+.contenedor-spin-button {
+    display: flex;
+    justify-content: center;
+        position: fixed;
+            top: 45vh;
+            left: 58%;
+}
+
+/* media queries */
+
+@media (max-width:1899px) {
+    .contenedor-spin-button {
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 55vh;
+            left: 58%;
+        }
+}
+
+
+@media (max-width:680px)  {
+    #contenedor-cards {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 5px;
+        }
+
+                .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 77vh;
+                    left: 25%;
+                }
+}
+
+
+@media (max-width:680px) and (max-height:668px) {
+   .contenedor-spin-button {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 68vh;
+    left: 25%;
+}
+}
+
+@media (max-width:680px) and (min-height:740px) {
+       .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 70vh;
+                    left: 25%;
+                }
+}
+
+@media (max-width:680px) and (min-height:900px) {
+       .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 57vh;
+                    left: 25%;
+                }
+}
+
+@media (max-width:391px) and (min-height:844px) {
+       .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 58vh;
+                    left: 25%;
+                }
+}
+
+@media (max-width:415px) and (min-height:896px) {
+       .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 58vh;
+                    left: 25%;
+                }
+}
+
+@media (max-width:394px) and (min-height:786px) {
+       .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 63vh;
+                    left: 25%;
+                }
+}
+
+@media (max-width:412px) and (min-height:823px) {
+       .contenedor-spin-button {
+                    display: flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 63vh;
+                    left: 25%;
+                }
+}

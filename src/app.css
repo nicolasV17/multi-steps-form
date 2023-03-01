@@ -1,0 +1,15 @@
+@media (max-width:680px)  {
+    .pl0mobile {
+        padding-left: 0px;
+    }
+    .pr0mobile {
+        padding-right: 0px;
+    }
+    .align-items-start-mobile {
+        align-items: flex-start!important;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+}

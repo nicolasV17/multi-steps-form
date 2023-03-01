@@ -1,0 +1,71 @@
+.contenedor-card-data {
+    display: flex;
+    flex-direction: column;
+        padding-top: 20px;
+            padding-bottom: 15px;
+            border-color: #D6D9E6;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 13px;
+            cursor: pointer;
+            transition: all .2s ease;
+}
+
+.contenedor-card-data.active {
+    border-color: #022959;
+}
+
+.contenedor-card-data:hover {
+    border-color: #022959;
+}
+
+.titulo-card {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.valor-card {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.descuento-card {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.contenedor-icono-card {
+    padding-bottom: 40px;
+}
+
+
+@media (max-width:680px)  {
+    .contenedor-card-data {
+            display: flex;
+            flex-direction: row;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-color: #D6D9E6;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 13px;
+            cursor: pointer;
+            transition: all .2s ease;
+        }
+
+        .contenedor-icono-card {
+            padding-bottom: 0;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 15px;
+        }
+
+                .titulo-card {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                }
+
+                                .valor-card {
+                                    font-size: 15px;
+                                    margin-bottom: 0px;
+                                }
+}

@@ -1,0 +1,28 @@
+.thank-you {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.sub-thanks-you {
+    font-size: 24px;
+    width: 90%;
+}
+
+
+@media (max-width:680px) {
+
+    .tarjeta-blanca {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: -93px;
+        background: white;
+        padding: 10px 15px;
+        border-radius: 12px;
+        height: 455px;
+    }
+
+        .thank-you {
+            font-size: 25px;
+            margin-top: 20px;
+        }
+}

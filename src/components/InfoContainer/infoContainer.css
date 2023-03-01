@@ -1,0 +1,169 @@
+.personal-info {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.please-provide {
+    font-size: 21px;
+}
+
+.label-form {
+    font-size: 20px;
+}
+
+.container-input {
+    margin-top: 40px;
+}
+
+.input {
+    width: 90%;
+    margin: 0 auto;
+    height: 55px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.input::placeholder {
+    color: #9699AA;
+    font-family: "ubuntu-medium";
+    font-size: 19px;
+    padding-left: 15px;
+
+}
+
+.input:focus {
+    border: 1px solid #483EFF;
+}
+
+.contenedor-info-container {
+    padding-top: 9%;
+    padding-left: 20%;
+}
+
+.container-input>p {
+    width: 90%;
+}
+
+
+
+input.error {
+    border: 1px solid #EE374A !important;
+}
+
+/* medias queries */
+
+@media (max-width:1899px) {
+    .contenedor-info-container {
+        padding-top: 6%;
+        padding-left: 15%;
+    }
+}
+
+@media (max-width:1499px) {
+    .contenedor-info-container {
+        padding-top: 6%;
+        padding-left: 10%;
+    }
+}
+
+@media (max-width:1800px) and (max-height: 750px) {
+    .contenedor-info-container {
+        padding-top: 0;
+        padding-left: 5%;
+    }
+}
+
+
+@media (max-width:680px) {
+   .contenedor-info-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -124px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    height: 60vh;
+}
+    .personal-info {
+        font-size: 22px !important;
+    }
+
+    .please-provide {
+        font-size: 16px;
+    }
+
+    .label-form {
+        font-size: 15px;
+    }
+
+    .input::placeholder {
+        color: #9699AA;
+        font-family: "ubuntu-medium";
+        font-size: 15px;
+        padding-left: 15px;
+
+    }
+
+    .input {
+        width: 95%;
+        margin: 0 auto;
+        height: 40px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        padding-left: 10px;
+    }
+
+        .container-input {
+            margin-top: 25px;
+        }
+}
+
+
+
+@media (max-width:680px) and (max-height:668px) {
+.contenedor-info-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -95px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    height: 60vh;
+}
+}
+
+@media (max-width:680px) and (min-height:735px) and (max-height:737px) {
+.contenedor-info-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -90px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    height: 60vh;
+}
+}
+
+@media (max-width:680px) and (min-height:740px) {
+ .contenedor-info-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -124px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    height: 60vh;
+}
+
+@media (max-width:360px) {
+      .contenedor-info-container {
+     
+        margin-top: -80px;
+      
+    }
+}
+}
