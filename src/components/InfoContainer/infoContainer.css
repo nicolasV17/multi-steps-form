@@ -79,7 +79,7 @@ input.error {
 
 @media (max-width:680px) {
    .contenedor-info-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: -124px;
     background: white;
@@ -126,7 +126,7 @@ input.error {
 
 @media (max-width:680px) and (max-height:668px) {
 .contenedor-info-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: -95px;
     background: white;
@@ -138,7 +138,7 @@ input.error {
 
 @media (max-width:680px) and (min-height:735px) and (max-height:737px) {
 .contenedor-info-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: -90px;
     background: white;
@@ -150,7 +150,7 @@ input.error {
 
 @media (max-width:680px) and (min-height:740px) {
  .contenedor-info-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: -124px;
     background: white;
