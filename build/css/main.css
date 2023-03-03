@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "ubuntu-bold";
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ubuntu-medium";
+    src: url(../fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: "ubuntu-regular";
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+.ubuntu-bold {
+    font-family: "ubuntu-bold";
+}
+
+.ubuntu-medium {
+    font-family: "ubuntu-medium";
+}
+
+.ubuntu-regular {
+    font-family: "ubuntu-regular";
+}
+
+.lblue {
+    color: #ABBCFF;
+}
+
+.bg-lblue {
+    background-color: #ABBCFF;
+}
+
+.blanco {
+    color: #FFFFFF;
+}
+.bg-blanco {
+    background-color: #FFFFFF;
+}
+
+.ls2 {
+    letter-spacing: 2px;
+}
+
+.azul02 {
+    color: #022959;
+}
+
+.bg-azul02 {
+    background-color: #022959;
+}
+
+.gris9 {
+    color: #9699AA;
+}
+
+.bg-gris9 {
+    background-color: #9699AA;
+}
+
+.prelative {
+    position: relative;
+}
+
+.size16 {
+    font-size: 16px;
+}
+
+button {
+    border: none;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+
+/* // media of fonts */
+
+
+@media (max-width: 1899px) {
+    html {
+        font-size: 95%;
+    }
+}
+
+@media (max-width: 1799px) {
+    html {
+        font-size: 90%;
+    }
+
+}
+
+@media (max-width: 1499px) {
+    html {
+        font-size: 85%;
+    }
+
+}
+
+@media (max-width: 1399px) {
+    html {
+        font-size: 80%;
+    }
+
+
+}
+
+@media (max-width: 1250px) {
+    html {
+        font-size: 75%;
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: 65%;
+    }
+
+
+}
